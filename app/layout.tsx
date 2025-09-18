@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer/page";
 import Navbar from "@/components/navbar/page";
+import localFont from "next/font/local";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const angella = localFont({
+  src: "../public/fonts/Angella.otf",
+  variable: "--font-angella",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const cinzel = localFont({
+  src: "../public/fonts/Cinzel.ttf",
+  variable: "--font-cinzel",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,10 +27,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html
+      lang="en"
+      className={(angella.variable, cinzel.variable || "") + " scroll-smooth"}
+    >
+      <body className="bg-gray-300 ">
         <Navbar />
         {children}
         <Footer />

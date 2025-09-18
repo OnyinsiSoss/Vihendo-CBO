@@ -47,36 +47,36 @@ const CurrentPriorities: React.FC = () => {
           alt="Projects Banner"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gray-500/80"></div>
+        <div className="absolute inset-0 bg-blue-500/80"></div>
         <div className="relative text-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-center">
           <h1 className="text-3xl border-b-2 pb-2 border-secondary font-bold tracking-tight text-center text-white">
             Our Projects
           </h1>
         </div>
       </div>
-      <div className="min-h-screen bg-gray-300 flex items-center justify-center p-4">
-        <div className="max-w-3xl w-full bg-white shadow-lg rounded-lg p-8">
-          <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">
+      <section className="min-h-screen flex items-center justify-center p-4 bg-[url('https://source.unsplash.com/random/1920x1080/?nature')] bg-cover  bg-center">
+        <div className="max-w-3xl w-full bg-white/10 backdrop-blur-md rounded-xl shadow-lg border border-white/20 p-8">
+          <h1 className="text-3xl font-bold text-center text-white mb-6">
             VIHENDO CBO Current Priorities (2025-2026)
           </h1>
-          <p className="text-center text-gray-600 mb-8">
+          <p className="text-center text-gray-200 mb-8">
             The following are the key priorities for VIHENDO CBO for the period
             2025-2026:
           </p>
           <ul className="space-y-2">
             {priorities.map((priority, index) => (
-              <li key={index} className="border-b border-gray-200">
+              <li key={index} className="border-b border-white/20">
                 <button
-                  className="w-full flex justify-between items-center p-3 rounded rounded-md text-left text-gray-800 hover:bg-gray-300 focus:outline-none"
+                  className="w-full flex justify-between items-center py-3 text-left text-white hover:bg-white/10 focus:outline-none transition-colors"
                   onClick={() => toggleDropdown(index)}
                 >
                   <span className="flex-1">{priority.title}</span>
-                  <span className="text-blue-500 ">
+                  <span className="text-white">
                     {openIndex === index ? <FaChevronUp /> : <FaChevronDown />}
                   </span>
                 </button>
                 {openIndex === index && (
-                  <div className="pl-4 pb-3 text-gray-600 text-sm">
+                  <div className="pl-4 pb-3 text-gray-200 text-sm">
                     {priority.description}
                   </div>
                 )}
@@ -84,7 +84,7 @@ const CurrentPriorities: React.FC = () => {
             ))}
           </ul>
         </div>
-      </div>
+      </section>
     </div>
   );
 };
