@@ -5,7 +5,7 @@ import Image from "next/image";
 const page = () => {
   return (
     <div className=" ">
-      <div className="relative h-[80vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 ">
+      <div className="relative h-[100vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 ">
         <Image
           src="https://i.ibb.co.com/xKhRkrFz/slide2.jpg"
           width={1920}

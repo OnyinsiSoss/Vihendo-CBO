@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 import Image from "next/image";
 
-const CurrentPriorities: React.FC = () => {
+const CurrentPriorities = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const priorities = [
@@ -54,7 +54,7 @@ const CurrentPriorities: React.FC = () => {
           </h1>
         </div>
       </div>
-      <section className="min-h-screen flex items-center justify-center p-4 bg-[url('https://source.unsplash.com/random/1920x1080/?nature')] bg-cover  bg-center">
+      <section className="min-h-screen bg-gray-500 flex items-center justify-center p-4 bg-[url('https://source.unsplash.com/random/1920x1080/?nature')] bg-cover  bg-center">
         <div className="max-w-3xl w-full bg-white/10 backdrop-blur-md rounded-xl shadow-lg border border-white/20 p-8">
           <h1 className="text-3xl font-bold text-center text-white mb-6">
             VIHENDO CBO Current Priorities (2025-2026)

@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="en"
       className={(angella.variable, cinzel.variable || "") + " scroll-smooth"}
     >
-      <body className="bg-gray-300 ">
+      <body className="bg-gray-100 ">
         <Navbar />
         {children}
         <Footer />

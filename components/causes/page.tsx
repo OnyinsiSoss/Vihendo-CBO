@@ -16,7 +16,7 @@ const thematicAreas = [
       "Mentorship and life-skills training for youth",
     ],
     image: <FaSchool />,
-    bgColor: "bg-[#366334]",
+    bgColor: "bg-[#366334]/50",
   },
   {
     title: "Community Health Promotion",
@@ -25,7 +25,7 @@ const thematicAreas = [
       "Linkages to public health services and mental health support",
     ],
     image: <FaClinicMedical />,
-    bgColor: "bg-white",
+    bgColor: "bg-slate-200",
   },
   {
     title: "Environmental Conservation",
@@ -52,27 +52,22 @@ const thematicAreas = [
       "Access to micro-loans and savings schemes",
     ],
     image: <FaDonate />,
-    bgColor: "bg-[#d5a250]",
+    bgColor: "bg-[#d5a250]/80",
   },
 ];
 
 const page = () => {
   return (
-    <div>
-      <div className="relative h-[400px]">
-        <Image
-          src="https://i.ibb.co.com/xKhRkrFz/slide2.jpg"
-          width={1920}
-          height={400}
-          alt="Causes Banner"
-          className="absolute inset-0 w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gray-500/80"></div>
-        <div className="relative text-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-center">
-          <h1 className="text-3xl border-b-2 pb-2 border-secondary font-bold tracking-tight text-center text-white">
-            Our Causes
-          </h1>
-        </div>
+    <div className="px-4 md:px-10 py-12 bg-amber-100">
+      <div>
+        <h1 className="text-3xl font-bold font-[cinzel] text-center text-black mb-8">
+          Our <span className="text-green-700">Thematic Areas of Focus</span>
+        </h1>
+        <p className="text-center text-lg mb-12 px-4 md:px-20">
+          At Vihendo Community Based Organization, we are dedicated to making a
+          positive impact in our community through a variety of initiatives. Our
+          key areas of focus include:
+        </p>
       </div>
       <section className="">
         <div className=" w-full">
@@ -85,7 +80,7 @@ const page = () => {
                 key={index}
                 className={`border border-black/30 rounded-sm overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:backdrop-blur-lg group hover:shadow-lg ${area.bgColor}`}
               >
-                <div className="flex flex-col group m-auto items-center justify-center p-4 ">
+                <div className="flex flex-col text-gray-900 group m-auto items-center justify-center p-4 ">
                   <div className="text-4xl  py-4">{area.image}</div>
                   <h2 className="text-4xl text-center  font-[angella] my-2">
                     {area.title}

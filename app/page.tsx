@@ -1,16 +1,18 @@
 import Hero from "@/components/hero/page";
-import Purpose from "@/components/purpose/page";
-import Goals from "@/components/goals/page";
 import WhyUs from "@/components/whyUs/page";
+import WhatWeDo from "@/components/WhatWeDo/page";
+import Causes from "@/components/causes/page";
+import About from "@/components/about/page";
+import ServicesSection from "@/components/ServiceSection/page";
 
 export default function Home() {
   return (
     <div className="">
       <Hero />
-      <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-8 m-20">
-        <Purpose />
-        <Goals />
-      </div>
+      <ServicesSection />
+      <About />
+      <Causes />
+      <WhatWeDo />
       <WhyUs />
     </div>
   );
