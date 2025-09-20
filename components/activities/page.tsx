@@ -54,11 +54,11 @@ const CommunityActivities = () => {
         <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-8 w-full bg-white shadow-lg rounded-lg overflow-hidden p-10">
           <div className="basis-1/3 w-full flex items-center justify-center p-4">
             <h1 className="font-[cinzel] text-3xl">
-              Vihendo cbo shall undertake the following activities to generate
+              Vihendo CBO is undertaking the following activities to generate
               resources for our programs:
             </h1>
           </div>
-          <div className="basis-2/3 w-full flex items-center justify-center p-4">
+          <div className="basis-2/3 w-full flex items-center justify-center sm:p-4">
             <div className="w-full bg-white shadow-lg rounded-lg">
               <ul className="space-y-2">
                 {activities.map((activity, index) => (

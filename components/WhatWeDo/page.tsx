@@ -7,17 +7,19 @@ import Activities from "@/components/activities/page";
 const page = () => {
   return (
     <div>
-      <div className="flex flex-col md:justify-center md:items-start gap-8 m-20 p-10 shadow-lg  hover:shadow-2xl transition-shadow duration-300">
+      <div className="flex flex-col md:justify-center md:items-start gap-8 sm:m-20 p-10 shadow-lg  hover:shadow-2xl transition-shadow duration-300">
         <div className="">
           <h1 className="text-5xl   font-[cinzel] ">What we do</h1>
           <hr className="border-t-2 my-5 border-gray-500" />
         </div>
-        <div>
+        <div className="flex flex-col gap-10">
           <Purpose />
-          <Goals />
+          <Activities />
         </div>
-        <Activities />
-        <Projects />
+        <div className="flex flex-col gap-10">
+          <Goals />
+          <Projects />
+        </div>
       </div>
       <div></div>
     </div>

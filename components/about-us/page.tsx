@@ -4,8 +4,8 @@ import Vission from "@/components/vission/page";
 
 const aboutUs = () => {
   return (
-    <div className=" p-10 shadow-lg  hover:shadow-2xl mx-20 my-10 transition-shadow duration-300">
-      <div className="flex flex-col md:justify-around md:items-start gap-8  my-10">
+    <div className="bg-white p-10 shadow-lg  hover:shadow-2xl sm:mx-20 sm:my-10 transition-shadow duration-300">
+      <div className="flex bg-white flex-col md:justify-around md:items-start gap-8  my-10">
         <div className="">
           <h1 className="text-5xl   font-[cinzel] ">Who we are</h1>
         </div>

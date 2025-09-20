@@ -2,7 +2,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="flex flex-col  gap-4 m-auto p-8   rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
+    <div className="flex flex-col  gap-4 m-auto p-8 rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300">
       <h1 className="font-[angella] text-6xl capitalize">our goal</h1>
       <p className="leading-8 text-lg">
         To empower women and youth by promoting economic development, education,

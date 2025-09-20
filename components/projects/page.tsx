@@ -38,34 +38,40 @@ const CurrentPriorities = () => {
 
   return (
     <div>
-      <div className="w-full bg-white overflow-hidden backdrop-blur-md rounded-xl shadow-lg  p-10">
-        <h1 className="text-3xl font-bold font-[cinzel] mb-6">
-          VIHENDO CBO Current Priorities (2025-2026)
-        </h1>
-        <p className="text-left mb-8">
-          The following are the key priorities for VIHENDO CBO for the period
-          2025-2026:
-        </p>
-        <ul className=" w-full">
-          {priorities.map((priority, index) => (
-            <li key={index} className=" border-b border-gray-500/20">
-              <button
-                className="w-full flex justify-between  items-center py-3 text-left hover:bg-gray-200 "
-                onClick={() => toggleDropdown(index)}
-              >
-                <span className="flex-1 text-xl pl-1">{priority.title}</span>
-                <span className="pr-1">
-                  {openIndex === index ? <FaChevronUp /> : <FaChevronDown />}
-                </span>
-              </button>
-              {openIndex === index && (
-                <div className="p-3 bg-gray-200 rounded text-gray-700 text-lg">
-                  {priority.description}
-                </div>
-              )}
-            </li>
-          ))}
-        </ul>
+      <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-8 w-full bg-white shadow-lg rounded-lg overflow-hidden p-10">
+        <div className="basis-2/3 w-full flex items-center justify-center sm:p-4">
+          <div className="w-full bg-white shadow-lg rounded-lg">
+            <ul className="space-y-2">
+              {priorities.map((priority, index) => (
+                <li key={index} className=" border-b border-gray-200">
+                  <button
+                    className="w-full flex justify-between items-center p-5 text-left text-gray-800 hover:bg-gray-300 focus:outline-none"
+                    onClick={() => toggleDropdown(index)}
+                  >
+                    <span className="flex-1 text-lg">{priority.title}</span>
+                    <span className="text-blue-700">
+                      {openIndex === index ? (
+                        <FaChevronUp />
+                      ) : (
+                        <FaChevronDown />
+                      )}
+                    </span>
+                  </button>
+                  {openIndex === index && (
+                    <div className="pl-4 pb-3 text-gray-600 text-md">
+                      {priority.description}
+                    </div>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <div className="basis-1/3 w-full flex items-center justify-center p-4">
+          <h1 className="font-[cinzel] text-3xl">
+            VIHENDO CBO Current Priorities (2025-2026)
+          </h1>
+        </div>
       </div>
     </div>
   );
