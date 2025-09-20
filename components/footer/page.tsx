@@ -3,25 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="m-8 rounded-2xl bg-blue-600 text-white py-12">
-      <div className="flex items-center justify-center gap-5 py-5 mb-20 ">
-        <div className="text-center gap-2">
-          <p className="uppercase text-xl text-gray-100">
-            Join our community and make a difference
-          </p>
-        </div>
-        <div className="items-center flex">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="px-4 py-2 rounded-l-full  focus:outline-none text-white border-white bg-gray-600 "
-          />
-          <button className="px-4 py-2 bg-white text-gray-700 rounded-r-full hover:bg-gray-800 hover:text-white transition-all hover:border hover:border-white">
-            Subscribe
-          </button>
-        </div>
-      </div>
-
+    <footer className="m-8  rounded-2xl bg-blue-600 text-white py-12">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center items-center">
           <div className=" text-xl text-center">

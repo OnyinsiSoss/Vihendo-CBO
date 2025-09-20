@@ -4,7 +4,7 @@ import React from "react";
 const page = () => {
   return (
     <div>
-      <div className="relative h-[80vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 ">
+      <div className="relative h-[90vh] md:h-[80vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 ">
         <div
           className="absolute inset-0 w-full  -z-10"
           style={{
