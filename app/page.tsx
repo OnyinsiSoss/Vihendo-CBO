@@ -7,12 +7,14 @@ import ServicesSection from "@/components/ServiceSection/page";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="scroll-smooth">
       <Hero />
       <ServicesSection />
       <About />
       <Causes />
-      <WhatWeDo />
+      <div id="what-we-do" className="rounded-md">
+        <WhatWeDo />
+      </div>
       <WhyUs />
     </div>
   );

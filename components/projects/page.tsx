@@ -38,7 +38,12 @@ const CurrentPriorities = () => {
 
   return (
     <div>
-      <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-8 w-full bg-white shadow-lg rounded-lg overflow-hidden p-10">
+      <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-8 w-full bg-white/70 text-blue-950 shadow-lg rounded-lg overflow-hidden p-10">
+        <div className="basis-1/3 w-full flex items-center justify-center p-4">
+          <h1 className="font-[cinzel] text-3xl">
+            VIHENDO CBO Current Priorities (2025-2026)
+          </h1>
+        </div>
         <div className="basis-2/3 w-full flex items-center justify-center sm:p-4">
           <div className="w-full bg-white shadow-lg rounded-lg">
             <ul className="space-y-2">
@@ -66,11 +71,6 @@ const CurrentPriorities = () => {
               ))}
             </ul>
           </div>
-        </div>
-        <div className="basis-1/3 w-full flex items-center justify-center p-4">
-          <h1 className="font-[cinzel] text-3xl">
-            VIHENDO CBO Current Priorities (2025-2026)
-          </h1>
         </div>
       </div>
     </div>

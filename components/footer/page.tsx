@@ -3,30 +3,32 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="m-8  rounded-2xl bg-blue-600 text-white py-12">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-center items-center">
-          <div className=" text-xl text-center">
-            <Link href="/">Vihendo Community</Link>
-            <p className="text-gray-300 mt-4">
+    <footer className="text-white p-20">
+      <div className="max-w-7xl mx-auto ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-right ">
+          <div className=" text-xl">
+            <Link className="font-bold uppercase" href="/">
+              Vihendo Community
+            </Link>
+            <p className=" mt-4">
               “Putting love for the communities into actions”
             </p>
           </div>
-          <div className=" justify-center text-center">
-            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+          <div className="">
+            <h3 className="text-xl font-bold uppercase mb-4">Quick Links</h3>
+            <ul className="space-y-2 text-lg hover:text-xl">
               <li>
-                <Link href="/" className="hover:text-blue-400">
+                <Link href="/" className="">
                   Home
                 </Link>
               </li>
               <li>
-                <a href="/about" className="hover:text-blue-400">
+                <a href="#who-we-are" className="hover:text-blue-400">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="/services" className="hover:text-blue-400">
+                <a href="#what-we-do" className="hover:text-blue-400">
                   Causes
                 </a>
               </li>
@@ -37,17 +39,17 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="justify-center text-center">
-            <h3 className="text-xl font-bold mb-4">Contact Info</h3>
-            <ul className="space-y-2 text-gray-300">
+          <div className="">
+            <h3 className="text-xl font-bold uppercase mb-4">Contact Info</h3>
+            <ul className="space-y-2">
               <li>Email: info@vihendocbo.com</li>
               <li>Phone: 01777112564</li>
               <li>Address: P.O. Box 56-80108, KILIFI, Kenya.</li>
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-600 mt-8 pt-8 text-center">
-          <p className="text-gray-300">
+        <div className="border-t-3 border-gray-800 mt-8 pt-8 text-center">
+          <p className=" text-xl uppercase">
             © {new Date().getFullYear()} Vihendo Community. All rights reserved.
           </p>
         </div>

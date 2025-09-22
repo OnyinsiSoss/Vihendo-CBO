@@ -1,9 +1,9 @@
-import { HandHeart } from "lucide-react";
+// import { HandHeart } from "lucide-react";
 import React from "react";
 
 const page = () => {
   return (
-    <div>
+    <div id="Get-Involved">
       <div className="relative h-[90vh] md:h-[80vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 ">
         <div
           className="absolute inset-0 w-full  -z-10"
@@ -43,7 +43,7 @@ const page = () => {
           strengths, we strive to create lasting positive change and promote
           social equity. */}
         </p>
-        <button
+        {/* <button
           type="button"
           className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-black flex justify-between items-center font-semibold gap-1 hover:border border border-transparent hover:border-blue-600"
         >
@@ -51,7 +51,7 @@ const page = () => {
           <div className="group-hover:translate-x-2 transition-all">
             <HandHeart size={18} />
           </div>
-        </button>
+        </button> */}
       </div>
     </div>
   );

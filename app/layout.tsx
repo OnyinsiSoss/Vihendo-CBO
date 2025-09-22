@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/footer/page";
-import Navbar from "@/components/navbar/page";
+import Navbar from "@/components/Navbar/page";
 import localFont from "next/font/local";
 
 const angella = localFont({
@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="en"
       className={(angella.variable, cinzel.variable || "") + " scroll-smooth"}
     >
-      <body className="bg-[#f9f9f9]">
+      <body className="bg-gradient-to-r from-[#5f2c82] to-[#49a09d] ">
         <Navbar />
         {children}
         <Footer />

@@ -78,7 +78,7 @@ const page = () => {
             {thematicAreas.map((area, index) => (
               <div
                 key={index}
-                className={`border border-black/30 rounded-sm overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:backdrop-blur-lg group hover:shadow-lg ${area.bgColor}`}
+                className={` rounded-sm overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:backdrop-blur-lg group hover:shadow-lg ${area.bgColor}`}
               >
                 <div className="flex flex-col text-gray-900 group m-auto items-center justify-center p-4 ">
                   <div className="text-4xl  py-4">{area.image}</div>
