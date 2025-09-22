@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/footer/page";
-import Navbar from "@/components/Navbar/page";
+import Navbar from "@/components/navbar/page";
 import localFont from "next/font/local";
 
 const angella = localFont({
