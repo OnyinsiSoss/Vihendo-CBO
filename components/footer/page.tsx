@@ -48,7 +48,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="border-t-3 border-gray-800 mt-8 pt-8 text-center">
+        <div className="border-t-3 border-gray-200 mt-8 pt-8 text-center">
           <p className=" text-xl uppercase">
             © {new Date().getFullYear()} Vihendo Community. All rights reserved.
           </p>
