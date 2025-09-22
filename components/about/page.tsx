@@ -3,7 +3,7 @@ import AboutUs from "@/components/about-us/page";
 
 const page = () => {
   return (
-    <div id="Who-we-are" className="rounded-md">
+    <div id="Who-we-are">
       <AboutUs />
     </div>
   );
