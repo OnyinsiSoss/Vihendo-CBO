@@ -22,12 +22,12 @@ const page = () => {
             </h1>
           </div>
         </div>
-        <div className="rounded-2xl bg-[#146D2D] p-20 sm:p-6">
-          <p className=" font-[angella]  capitalize sm:m-20 text-white mt-6 max-w-3xl text-3xl sm:text-6xl">
+        <div className="rounded-2xl bg-[#146D2D] p-2">
+          <p className=" font-[angella]  capitalize sm:m-10 text-white mt-6 max-w-3xl text-3xl sm:text-6xl">
             &quot;Together We can light the path to a better future for our
             communities&quot;
           </p>
-          <div className="sm:m-20">
+          <div className=" sm:m-20">
             <SupportInvitation />
             <GetInTouch />
           </div>
