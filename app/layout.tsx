@@ -16,6 +16,12 @@ const cinzel = localFont({
   display: "swap",
 });
 
+const Montserrat = localFont({
+  src: "../public/fonts/Montserrat-Regular.ttf",
+  variable: "--font-montserrat",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Vihendo Community",
   description: "Putting love for the communities into actions",
@@ -29,7 +35,10 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={(angella.variable, cinzel.variable || "") + " scroll-smooth"}
+      className={
+        (angella.variable, cinzel.variable, Montserrat.className || "") +
+        " scroll-smooth"
+      }
     >
       <body className="bg-gradient-to-r from-[#5f2c82] to-[#49a09d] ">
         <Navbar />
