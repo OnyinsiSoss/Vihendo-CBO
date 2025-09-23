@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import GetInTouch from "@/components/getInTouch/page";
 import SupportInvitation from "@/components/volunteer/page";
+import Donate from "@/components/Donate/page";
 
 const page = () => {
   return (
@@ -25,6 +26,7 @@ const page = () => {
         <div className="rounded-2xl bg-[#146D2D] p-2">
           <div className=" sm:m-20">
             <SupportInvitation />
+            <Donate />
             <GetInTouch />
           </div>
         </div>

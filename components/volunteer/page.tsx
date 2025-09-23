@@ -6,7 +6,6 @@ import {
   GiftIcon,
   UsersIcon,
 } from "@heroicons/react/24/outline";
-import Donate from "@/components/Donate/page";
 
 const SupportInvitation = () => {
   return (
@@ -62,7 +61,6 @@ const SupportInvitation = () => {
           </div>
         </div>
       </div>
-      <Donate />
     </div>
   );
 };
