@@ -9,7 +9,7 @@ const Page = () => {
 
   return (
     <div>
-      <nav className="flex items-center overflow-hidden justify-between p-2 sm:px-20 font-[cinzel] text-blue-950 w-full uppercase fixed bg-white z-50 shadow-md">
+      <nav className="flex items-center overflow-hidden justify-between p-2 sm:px-20 font-[cinzel]  w-full uppercase fixed bg-white z-50 shadow-md">
         <div>
           <Link href="/#home">
             <Image

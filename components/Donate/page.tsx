@@ -5,18 +5,18 @@ const DonationSection = () => {
   return (
     <section
       id="Donate"
-      className="my-10 sm:p-10 rounded-lg shadow-xl bg-white"
+      className="my-10 sm:p-10 rounded-lg shadow-xl bg-[#146D2D] text-white"
     >
       <div className="sm:my-20  ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-4 my-10">
-            <h4 className="text-2xl font-[cinzel] font-semibold text-[#146D2D] mb-4">
+            <h4 className="text-2xl font-[cinzel] font-semibold mb-4">
               Your contribution makes a real impact
             </h4>
-            <h2 className="text-3xl font-[angella] text-gray-900">
+            <h2 className="text-3xl font-[angella] text-gray-100">
               Make a Donation
             </h2>
-            <div className="text-[#106C7B]">
+            <div className="text-white flex flex-col gap-8">
               <p>
                 We appreciate your kindness and commitment to our cause. By
                 joining forces, we can drive positive change and create a
@@ -27,6 +27,10 @@ const DonationSection = () => {
                 uplift those in need, encourage independence, and drive lasting
                 progress. Together, we&apos;re building hope for individuals
                 overcoming challenges.
+              </p>
+              <p className=" font-[cinzel] text-white text-xl">
+                &quot;Together We can light the path to a better future for our
+                communities&quot;
               </p>
             </div>
           </div>

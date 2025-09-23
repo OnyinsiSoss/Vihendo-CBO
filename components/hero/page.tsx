@@ -17,10 +17,11 @@ const page = () => {
         <div className="absolute inset-0 bg-[#146D2D]/40 -z-10"></div>
         <div>
           <div className="text-white">
-            <h1 className="text-center text-4xl mb-4 uppercase">
-              <span className="text-5xl font-bold">VIHENDO</span> Community
+            <h1 className="text-center text-3xl mb-4 uppercase">
+              <span className="text-5xl font-[cinzel] font-bold">VIHENDO</span>{" "}
+              Community
             </h1>
-            <h2 className="text-center sm:text-3xl text-xl capitalize font-bold">
+            <h2 className="text-center sm:text-3xl text-xl capitalize font-semibold">
               &quot;upendo wa jamii kupitia vitendo&quot;
             </h2>
           </div>
