@@ -19,7 +19,7 @@ export default function ServicesSection() {
               help to those who need it most. Join us in changing lives!
             </p>
             <Link
-              href="/Donate"
+              href="/get-involved/#Donate"
               className="mt-8 px-6 py-3 text-[16px] md:text-[16px] sm:text-[14px] font-[cinzel] font-medium capitalize bg-blue-950 text-white hover:bg-[#eeeeee] hover:text-blue-950 transition-all duration-400"
             >
               Donate
@@ -64,7 +64,7 @@ export default function ServicesSection() {
               help. Reach out today—let’s make a difference together.
             </p>
             <Link
-              href="/contact"
+              href="/get-involved/#contact"
               className="mt-8 px-6 py-3 text-[16px] font-[cinzel] md:text-[16px] sm:text-[14px] capitalize bg-blue-950 text-white hover:bg-[#eeeeee] hover:text-blue-950 transition-all duration-400"
             >
               Enquire

@@ -1,5 +1,7 @@
 // import { HandHeart } from "lucide-react";
+import { HandHeart } from "lucide-react";
 import React from "react";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -43,15 +45,17 @@ const page = () => {
           strengths, we strive to create lasting positive change and promote
           social equity. */}
         </p>
-        {/* <button
-          type="button"
-          className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-black flex justify-between items-center font-semibold gap-1 hover:border border border-transparent hover:border-blue-600"
-        >
-          Become a volunteer{" "}
-          <div className="group-hover:translate-x-2 transition-all">
-            <HandHeart size={18} />
-          </div>
-        </button> */}
+        <Link href="/get-involved">
+          <button
+            type="button"
+            className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-black flex justify-between items-center font-semibold gap-1 hover:border border border-transparent hover:border-blue-600"
+          >
+            Get Involved
+            <div className="group-hover:translate-x-2 transition-all">
+              <HandHeart size={18} />
+            </div>
+          </button>
+        </Link>
       </div>
     </div>
   );

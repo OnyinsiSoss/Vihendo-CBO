@@ -22,16 +22,23 @@ const page = () => {
               “Putting love for the communities into actions”
             </h2>
           </div>
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center uppercase gap-4 mt-8">
             <a
               type="button"
               className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-blue-950 flex justify-between items-center font-semibold gap-1 "
-              href="#Get-Involved"
+              href="/get-involved"
             >
-              Donate Now{" "}
+              Get Involved
               <div className="group-hover:translate-x-2 transition-all">
                 <HandHeart size={18} />
               </div>
+            </a>
+            <a
+              type="button"
+              className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-blue-950 flex justify-between items-center font-semibold gap-1 "
+              href="#Who-we-are"
+            >
+              Learn more
             </a>
           </div>
         </div>

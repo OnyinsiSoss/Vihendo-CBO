@@ -50,7 +50,7 @@ const Page = () => {
             <li>
               <Link
                 className="hover:text-xl transition-scale duration-300"
-                href="/#Get-Involved"
+                href="/get-involved"
               >
                 get Involved
               </Link>
