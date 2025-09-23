@@ -9,7 +9,7 @@ const page = () => {
           className="absolute inset-0 w-full  -z-10"
           style={{
             backgroundAttachment: "fixed",
-            backgroundImage: "url('https://i.ibb.co.com/xKhRkrFz/slide2.jpg')",
+            backgroundImage: "url('images/children-1-scaled.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backdropFilter: "brightness(0.7)",

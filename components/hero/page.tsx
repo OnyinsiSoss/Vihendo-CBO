@@ -6,13 +6,13 @@ const page = () => {
     <div id="#home">
       <div className="relative h-[100vh] flex flex-col justify-center items-center text-center px-4 sm:px-6 lg:px-8 ">
         <Image
-          src="https://i.ibb.co.com/xKhRkrFz/slide2.jpg"
+          src="/images/children-1-scaled.jpg"
           width={1920}
           height={400}
           alt="About Banner"
           className="absolute inset-0 w-full h-full object-cover -z-10"
         />
-        <div className="absolute inset-0 bg-gray-500/50 -z-10"></div>
+        <div className="absolute inset-0 bg-blue-950/40 -z-10"></div>
         <div>
           <div className="text-white">
             <h1 className="text-center text-4xl mb-4 uppercase">
