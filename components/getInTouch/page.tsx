@@ -7,11 +7,11 @@ const page = () => {
         <div className="sm:m-10 rounded-2xl px-4 sm:px-6 lg:px-20 py-10 bg-gray-300">
           <div className="flex flex-col my-15 sm:flex-row">
             <div className="flex-1">
-              <h2 className="text-2xl font-bold mb-4 sm:mb-8 text-blue-950 font-[cinzel]">
+              <h2 className="text-2xl font-bold mb-4 sm:mb-8 text-[#146D2D] font-[cinzel]">
                 Get in Touch
               </h2>
             </div>
-            <div className="flex-1 max-w-3xl mx-auto bg-blue-950 p-8 rounded-lg shadow-lg">
+            <div className="flex-1 max-w-3xl mx-auto bg-[#146D2D] p-8 rounded-lg shadow-lg">
               <form className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-white">

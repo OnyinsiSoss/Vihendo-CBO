@@ -1,5 +1,7 @@
 import { HandHeart } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const page = () => {
   return (
@@ -23,23 +25,23 @@ const page = () => {
             </h2>
           </div>
           <div className="flex justify-center uppercase gap-4 mt-8">
-            <a
+            <Link
               type="button"
-              className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-blue-950 flex justify-between items-center font-semibold gap-1 "
+              className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-[#146D2D] flex justify-between items-center font-semibold gap-1 "
               href="/get-involved"
             >
               Get Involved
               <div className="group-hover:translate-x-2 transition-all">
                 <HandHeart size={18} />
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               type="button"
-              className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-blue-950 flex justify-between items-center font-semibold gap-1 "
+              className="group cursor-pointer slide-anime px-3 md:px-5 py-3 rounded-full max-w-max bg-white text-[#146D2D] flex justify-between items-center font-semibold gap-1 "
               href="#Who-we-are"
             >
               Learn more
-            </a>
+            </Link>
           </div>
         </div>
       </div>

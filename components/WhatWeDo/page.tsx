@@ -8,12 +8,12 @@ import SpecificObjectives from "../specificObjectives/page";
 const page = () => {
   return (
     <div>
-      <div className="flex flex-col ustify-center  gap-8 sm:m-20 sm:p-10 shadow-lg bg-blue-950 text-white   hover:shadow-2xl transition-shadow duration-300 rounded-md">
-        <div className="mt-10">
+      <div className="flex flex-col  gap-8 sm:m-20 sm:p-10 shadow-lg text-[#116D7C] bg-white hover:shadow-2xl transition-shadow duration-300 rounded-md">
+        <div className="mt-20">
           <h1 className="text-3xl sm:text-5xl px-10 text-center font-[cinzel] ">
             What we do
           </h1>
-          <hr className="border-t-2 m-5 border-white" />
+          <hr className="border-t-2 m-5 border-[#116D7C]" />
         </div>
         <div>
           <SpecificObjectives />

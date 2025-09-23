@@ -2,16 +2,24 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Page = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <div>
-      <nav className="flex items-center overflow-hidden justify-between p-6 sm:px-20 font-[cinzel] text-blue-950 w-full uppercase fixed bg-white z-50 shadow-md">
-        <div className="text-3xl font-bold">
+      <nav className="flex items-center overflow-hidden justify-between p-2 sm:px-20 font-[cinzel] text-blue-950 w-full uppercase fixed bg-white z-50 shadow-md">
+        <div>
           <Link href="/#home">
-            VIHENDO.<span className="text-blue-900 text-xl">cbo</span>
+            <Image
+              className="cursor-pointer "
+              src="/images/logo.jpg"
+              width={96}
+              height={32}
+              alt="logo"
+              priority
+            />
           </Link>
         </div>
         {/* Hamburger Icon */}
@@ -29,7 +37,7 @@ const Page = () => {
           </svg>
         </button>
         {/* Desktop Menu */}
-        <div className="hidden md:block text-shadow-slate-950 text-lg">
+        <div className="hidden md:block text-[#146D2D] text-lg">
           <ul className="flex space-x-4">
             <li>
               <Link
@@ -60,7 +68,7 @@ const Page = () => {
       </nav>
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="md:hidden fixed overflow-hidden top-20 font-[cinzel] flex justify-center uppercase h-screen left-0 w-full bg-white z-40">
+        <div className="md:hidden fixed overflow-hidden top-20 font-[cinzel] flex justify-center uppercase h-[50vh] left-0 w-full bg-white z-40">
           <ul className="flex flex-col  items-center overflow-hidden justify-center space-y-4">
             <li>
               <Link

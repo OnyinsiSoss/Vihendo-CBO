@@ -40,7 +40,7 @@ export default function RootLayout({
         " scroll-smooth"
       }
     >
-      <body className="bg-gradient-to-r from-[#5f2c82] to-[#49a09d] ">
+      <body className="bg-[#146D2D] ">
         <Navbar />
         {children}
         <Footer />

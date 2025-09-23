@@ -8,7 +8,7 @@ export default function ServicesSection() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl sm:px-20 mx-auto">
         <div className="p-4 md:p-6 bg-[#eeeeee] hover:bg-white hover:shadow-[2px_2px_5px_rgba(0,0,0,0.3)] transition-all duration-400 group rounded-md">
           <div className="flex flex-col items-center text-center">
-            <div className="text-blue-950 text-[35px] md:text-[32px] sm:text-[29px] mb-4 transition-all duration-400">
+            <div className="text-[#146D2D] text-[35px] md:text-[32px] sm:text-[29px] mb-4 transition-all duration-400">
               <FaDollarSign />
             </div>
             <h3 className="text-[#202a30] font-[cinzel] text-[24px] md:text-[22px] sm:text-[18px] font-bold uppercase leading-tight py-4 md:py-3 transition-all duration-400">
@@ -20,7 +20,7 @@ export default function ServicesSection() {
             </p>
             <Link
               href="/get-involved/#Donate"
-              className="mt-8 px-6 py-3 text-[16px] md:text-[16px] sm:text-[14px] font-[cinzel] font-medium capitalize bg-blue-950 text-white hover:bg-[#eeeeee] hover:text-blue-950 transition-all duration-400"
+              className="mt-8 px-6 py-3 text-[16px] md:text-[16px] sm:text-[14px] font-[cinzel] font-medium capitalize bg-[#146D2D] text-white hover:bg-[#eeeeee] hover:text-blue-950 transition-all duration-400"
             >
               Donate
             </Link>
@@ -30,7 +30,7 @@ export default function ServicesSection() {
         {/* Partner With Us */}
         <div className="p-4 md:p-6 bg-[#eeeeee] hover:bg-white hover:shadow-[2px_2px_5px_rgba(0,0,0,0.3)] transition-all duration-400 group rounded-md">
           <div className="flex flex-col items-center text-center">
-            <div className="text-blue-950 text-[35px] md:text-[32px] sm:text-[28px] mb-4 transition-all duration-400">
+            <div className="text-[#146D2D] text-[35px] md:text-[32px] sm:text-[28px] mb-4 transition-all duration-400">
               <FaUsers />
             </div>
             <h3 className="text-[#202a30] font-[cinzel] text-[24px] md:text-[22px] sm:text-[18px] font-bold uppercase leading-tight py-4 md:py-3 transition-all duration-400">
@@ -43,7 +43,7 @@ export default function ServicesSection() {
             </p>
             <Link
               href="/get-involved"
-              className="mt-8 px-6 py-3 text-[16px] md:text-[16px] sm:text-[14px] font-[cinzel] font-medium capitalize bg-blue-950 text-white hover:bg-[#eeeeee] hover:text-blue-950 transition-all duration-400"
+              className="mt-8 px-6 py-3 text-[16px] md:text-[16px] sm:text-[14px] font-[cinzel] font-medium capitalize bg-[#146D2D] text-white hover:bg-[#eeeeee] hover:text-blue-950 transition-all duration-400"
             >
               Get Involved
             </Link>
@@ -53,7 +53,7 @@ export default function ServicesSection() {
         {/* Contact Us */}
         <div className="p-4 md:p-6 bg-[#eeeeee] hover:bg-white hover:shadow-2xl transition-all duration-400 group rounded-md">
           <div className="flex flex-col items-center text-center">
-            <div className="text-blue-950 text-[35px] md:text-[32px] sm:text-[28px] mb-4 transition-all duration-400">
+            <div className="text-[#146D2D] text-[35px] md:text-[32px] sm:text-[28px] mb-4 transition-all duration-400">
               <FaAddressBook />
             </div>
             <h3 className="text-[#202a30] font-[cinzel] text-[24px] md:text-[22px] sm:text-[18px] font-bold uppercase leading-tight py-4 md:py-3 transition-all duration-400">
@@ -65,7 +65,7 @@ export default function ServicesSection() {
             </p>
             <Link
               href="/get-involved/#contact"
-              className="mt-8 px-6 py-3 text-[16px] font-[cinzel] md:text-[16px] sm:text-[14px] capitalize bg-blue-950 text-white hover:bg-[#eeeeee] hover:text-blue-950 transition-all duration-400"
+              className="mt-8 px-6 py-3 text-[16px] font-[cinzel] md:text-[16px] sm:text-[14px] capitalize bg-[#146D2D] text-white hover:bg-[#eeeeee] hover:text-blue-950 transition-all duration-400"
             >
               Enquire
             </Link>
