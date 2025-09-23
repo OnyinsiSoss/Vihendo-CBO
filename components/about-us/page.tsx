@@ -7,7 +7,7 @@ const aboutUs = () => {
     <div className="bg-white rounded-md text-[#146D2D] p-10 shadow-lg  hover:shadow-2xl sm:mx-10 sm:my-10 transition-shadow duration-300">
       <div className="flex bg-white flex-col md:justify-around md:items-start gap-8 sm:px-20  my-20">
         <div className="">
-          <h1 className="text-5xl   font-[cinzel] ">Who we are</h1>
+          <h1 className="text-5xl font-[cinzel] ">Who we are</h1>
           <hr className="border-t-2 my-5 border-[#146D2D]" />
         </div>
         <div>

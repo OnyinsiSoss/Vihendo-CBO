@@ -9,11 +9,9 @@ const page = () => {
   return (
     <div>
       <div className="flex flex-col  gap-8 sm:m-20 sm:p-10 shadow-lg text-white bg-[#146D2D] hover:shadow-2xl transition-shadow duration-300 rounded-md">
-        <div className="mt-20">
-          <h1 className="text-3xl sm:text-5xl px-10 text-center font-[cinzel] ">
-            What we do
-          </h1>
-          <hr className="border-t-2 m-5 border-[#146D2D]" />
+        <div className="mt-20 my-20">
+          <h1 className="sm:text-5xl px-10 font-[cinzel] ">What we do</h1>
+          <hr className="border-t-2 m-5 border-white" />
         </div>
         <div>
           <SpecificObjectives />

@@ -5,11 +5,19 @@ const page = () => {
     <main id="contact" className="">
       <>
         <div className="sm:m-10 rounded-2xl px-4 sm:px-6 lg:px-20 py-10 bg-gray-300">
-          <div className="flex flex-col my-15 sm:flex-row">
+          <div className="flex flex-col my-15 gap-8 sm:flex-row">
             <div className="flex-1">
-              <h2 className="text-2xl font-bold mb-4 sm:mb-8 text-[#146D2D] font-[cinzel]">
-                Get in Touch
+              <h2 className="text-6xl mb-4 sm:mb-8 text-[#146D2D] font-[angella] ">
+                Get Involved
               </h2>
+              <p className="text-lg text-[#146D2D] max-w-2xl mx-auto">
+                If you&apos;re interested in collaborating, volunteering your
+                time, making a donation, or simply discovering more about our
+                initiatives — don&apos;t hesitate to get in touch. Our dedicated
+                team is here to engage, address your inquiries, and discuss
+                opportunities for partnership in uplifting communities and
+                fostering enduring progress.
+              </p>
             </div>
             <div className="flex-1 max-w-3xl mx-auto bg-[#146D2D] p-8 rounded-lg shadow-lg">
               <form className="space-y-4">
