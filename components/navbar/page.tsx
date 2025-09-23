@@ -24,7 +24,7 @@ const Page = () => {
         </div>
         {/* Hamburger Icon */}
         <button
-          className="md:hidden flex items-center px-3 py-2 rounded bg-blue-950"
+          className="md:hidden flex items-center px-3 py-2 rounded bg-[#146D2D]"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
