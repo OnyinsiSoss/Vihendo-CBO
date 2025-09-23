@@ -14,7 +14,7 @@ const page = () => {
           alt="About Banner"
           className="absolute inset-0 w-full h-full object-cover -z-10"
         />
-        <div className="absolute inset-0 bg-blue-950/40 -z-10"></div>
+        <div className="absolute inset-0 bg-[#146D2D]/40 -z-10"></div>
         <div>
           <div className="text-white">
             <h1 className="text-center text-4xl mb-4 uppercase">
