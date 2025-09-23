@@ -22,8 +22,8 @@ const page = () => {
             </h1>
           </div>
         </div>
-        <div className="m-20 rounded-2xl bg-white p-2 sm:p-6">
-          <p className=" font-[angella] font-semibold capitalize sm:px-10 text-blue-950 mt-6 max-w-3xl text-lg sm:text-6xl">
+        <div className="m-2 sm:m-20 rounded-2xl bg-white p-2 sm:p-6">
+          <p className=" font-[angella] font-semibold capitalize sm:px-10 text-blue-950 mt-6 max-w-3xl text-3xl sm:text-6xl">
             &quot;Together We can light the path to a better future for our
             communities&quot;
           </p>

@@ -15,7 +15,7 @@ const aboutUs = () => {
             <span className="font-bold text-xl uppercase">
               VIHENDO Community Based Organization (VCBO){" "}
             </span>{" "}
-            is grassroots, non-profit Community-Based Organization founded in
+            is a grassroots, non-profit Community-Based Organization founded in
             2024 and officially registered on 13th, May, 2025. Based in KILIFI
             County, Kenya. VCBO was established by local volunteers with a
             shared passion for uplifting vulnerable and underserved communities
