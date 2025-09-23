@@ -31,7 +31,7 @@ const DonationSection = () => {
           <div className="bg-white p-6 rounded-lg shadow-md">
             <div className="flex flex-col items-center">
               <div className="mb-4">
-                <BanknotesIcon className="h-12 w-12 text-blue-500" />
+                <BanknotesIcon className="h-12 w-12 text-[#146D2D]" />
               </div>
               <h4 className="text-xl font-semibold text-gray-800 mb-4">
                 To support our ongoing work at Vihendo CBO, kindly use the
