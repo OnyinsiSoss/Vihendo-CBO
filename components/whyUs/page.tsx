@@ -26,10 +26,10 @@ const page = () => {
             }}
           ></div>
         </div>
-        <h1 className="text-7xl text-white text-center font-[angella] my-10">
+        <h1 className="text-5xl sm:text-7xl text-white text-center font-[angella] my-10">
           Why Partner with Us?
         </h1>
-        <p className="text-center text-white w-2/3 mx-20 mb-10">
+        <p className="text-center text-white  sm:mx-20 mb-10">
           VCBO is led by committed local volunteers who understand the needs,
           challenges, and potential of their own communities. We offer a direct,
           cost-effective, and participatory approach to grassroots development.
