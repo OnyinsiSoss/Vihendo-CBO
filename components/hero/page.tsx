@@ -21,7 +21,7 @@ const page = () => {
               <span className="text-5xl font-bold">VIHENDO</span> Community
             </h1>
             <h2 className="text-center text-4xl  font-bold">
-              “Putting love for the communities into actions”
+              &quot;upendo wa jamii kupitia vitendo&quot;
             </h2>
           </div>
           <div className="flex justify-center uppercase gap-4 mt-8">
