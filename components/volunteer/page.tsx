@@ -9,7 +9,7 @@ import {
 
 const SupportInvitation = () => {
   return (
-    <div className="m-10 sm:p-10 bg-white rounded-lg shadow-xl">
+    <div className="my-10 sm:m-10 sm:p-10 bg-white rounded-lg shadow-xl">
       <h2 className="text-2xl font-[cinzel] font-bold mb-4 text-blue-950">
         Support Our Mission
       </h2>

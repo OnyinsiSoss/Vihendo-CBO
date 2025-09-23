@@ -42,7 +42,7 @@ const Page = () => {
             <li>
               <Link
                 className="hover:text-xl transition-scale duration-300"
-                href="#what-we-do"
+                href="/#what-we-do"
               >
                 what we do
               </Link>
@@ -63,31 +63,31 @@ const Page = () => {
         <div className="md:hidden fixed overflow-hidden top-20 font-[cinzel] flex justify-center uppercase h-screen left-0 w-full bg-white z-40">
           <ul className="flex flex-col  items-center overflow-hidden justify-center space-y-4">
             <li>
-              <a
+              <Link
                 className="hover:text-xl transition-scale duration-300"
-                href="#Who-we-are"
+                href="/#Who-we-are"
                 onClick={() => setMenuOpen(false)}
               >
                 who we are
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="hover:text-xl transition-scale duration-300"
-                href="#what-we-do"
+                href="/#what-we-do"
                 onClick={() => setMenuOpen(false)}
               >
                 what we do
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 className="hover:text-xl transition-scale duration-300"
-                href="#Get-Involved"
+                href="/get-involved"
                 onClick={() => setMenuOpen(false)}
               >
                 get Involved
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

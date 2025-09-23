@@ -23,19 +23,22 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="#who-we-are" className="hover:text-blue-400">
+                <Link href="#who-we-are" className="hover:text-blue-400">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#what-we-do" className="hover:text-blue-400">
-                  Causes
-                </a>
+                <Link href="/get-involved" className="hover:text-blue-400">
+                  Get Involved
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-blue-400">
+                <Link
+                  href="/get-involved/#contact"
+                  className="hover:text-blue-400"
+                >
                   Contact US
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
