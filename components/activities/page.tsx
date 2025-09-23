@@ -51,7 +51,7 @@ const CommunityActivities = () => {
   return (
     <div>
       <div className="">
-        <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-8 w-full bg-white/70 text-blue-950 shadow-lg rounded-lg overflow-hidden ">
+        <div className="flex flex-col md:flex-row md:justify-center md:items-start gap-8 w-full bg-white text-[#106C7B] shadow-lg rounded-lg overflow-hidden ">
           <div className="basis-1/3 w-full flex items-center justify-center p-8">
             <h1 className="font-[cinzel] text-3xl">
               Vihendo CBO is undertaking the following activities to generate

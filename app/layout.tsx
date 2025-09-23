@@ -40,7 +40,7 @@ export default function RootLayout({
         " scroll-smooth"
       }
     >
-      <body className="bg-[#146D2D]/80 ">
+      <body className=" ">
         <Navbar />
         {children}
         <Footer />

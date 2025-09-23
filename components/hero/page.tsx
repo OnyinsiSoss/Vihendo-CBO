@@ -20,7 +20,7 @@ const page = () => {
             <h1 className="text-center text-4xl mb-4 uppercase">
               <span className="text-5xl font-bold">VIHENDO</span> Community
             </h1>
-            <h2 className="text-center text-4xl  font-bold">
+            <h2 className="text-center sm:text-3xl text-xl capitalize font-bold">
               &quot;upendo wa jamii kupitia vitendo&quot;
             </h2>
           </div>

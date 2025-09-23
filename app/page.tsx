@@ -12,7 +12,7 @@ export default function Home() {
       <ServicesSection />
       <About />
       <Causes />
-      <div id="what-we-do" className="rounded-md">
+      <div id="what-we-do">
         <WhatWeDo />
       </div>
       <WhyUs />

@@ -2,7 +2,7 @@ import React from "react";
 
 const SpecificObjectives = () => {
   return (
-    <div className="w-full m-auto p-4 text-[#146D2D] shadow-xl rounded-xl">
+    <div className="w-full m-auto p-4 text-white shadow-xl rounded-xl">
       <h1 className="text-3xl font-[cinzel] mb-6 ">Specific Objectives</h1>
       <p className="text-lg mb-6">
         The Community Based Organization (CBO) shall pursue the following

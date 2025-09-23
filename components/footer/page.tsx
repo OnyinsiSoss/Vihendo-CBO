@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-white p-20">
+    <footer className="text-white bg-[#146D2D] p-20">
       <div className="max-w-7xl mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-right ">
           <div className=" text-xl">
@@ -45,8 +45,8 @@ const Footer = () => {
           <div className="">
             <h3 className="text-xl font-bold uppercase mb-4">Contact Info</h3>
             <ul className="space-y-2">
-              <li>Email: info@vihendocbo.com</li>
-              <li>Phone: 01777112564</li>
+              <li>Email: vihendo@gmail.com</li>
+              <li>Phone: +254713576462</li>
               <li>Address: P.O. Box 56-80108, KILIFI, Kenya.</li>
             </ul>
           </div>
